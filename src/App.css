@@ -1,0 +1,68 @@
+.App1 {
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.add {
+  width: 93%;
+  align-items: center;
+}
+.fa-user-plus {
+  margin-top: 35px;
+  font-size: 13rem;
+  color: grey;
+  cursor: pointer;
+}
+/*###Tablet(medium)###*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /*Style*/
+  .App1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*### Smartphones (portrait and landscape)(small)### */
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  /*Style*/
+  .App1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
